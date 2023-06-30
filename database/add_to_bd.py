@@ -68,7 +68,7 @@ def add_query(query_data: dict) -> None:
                 query_data['input_city'],
                 query_data['photo_need'],
                 query_data['destination_id'],
-                query_data['date_time']
+                query_data['date_time'],
             )
         )
         logger.info(f'В БД добавлен новый запрос. User_id: {user_id}')
